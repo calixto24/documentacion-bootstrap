@@ -1,0 +1,79 @@
+/* ****************** Custom Properties *******************/
+:root {
+    --first-color: rgb(217, 0, 98);
+    --first-alpha-color: rgba(217, 0, 98, 0.75);
+
+    --second-color: rgb(20, 25, 45);
+    --second-alpha-color: rgba(20, 25, 45, 0.75);
+
+    --third-color: rgb(80, 20, 100);
+    --third-alpha-color: rgba(80, 20, 100, 0.75);
+
+    --link-color: rgb(80, 158, 227);
+
+    --bg-color: rgb(245, 245, 245);
+    --bg-alpha-color: rgba(245, 245, 245, 0.75);
+}
+
+/* ****************** Reset Style *******************/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* ****************** Bootstrap Style *******************/
+
+/* ****************** My Style *******************/
+.navbar .navbar-brand img{
+    width: auto;
+    height: 3rem;
+}
+
+.bg-dark {
+    background-color: var(--second-color) !important;
+}
+
+.collapse {
+    justify-content: right;
+}
+
+.nav-item:hover {
+    background-color: var(--first-alpha-color);
+}
+
+.nav-link {
+    color: var(--first-color);
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-left: .5rem;
+}
+
+.navbar-toggler:hover {
+    color: var(--first-alpha-color);
+}
+
+.footer_navbar {
+    list-style: none;
+    gap: 20px;
+}
+
+.bi {
+    color: var(--first-alpha-color);
+    transition: all .2s ease;
+}
+
+.bi:hover {
+    color: var(--bs-white);
+}
+
+@media (min-width: 576px) {  }
+
+
+@media (min-width: 768px) {  }
+
+
+@media (min-width: 992px) {  }
+
+
+@media (min-width: 1200px) {  }
+
+@media (min-width: 1400px) {  }
