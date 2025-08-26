@@ -21,8 +21,6 @@ body {
 }
 
 /* ****************** Bootstrap Style *******************/
-
-/* ****************** My Style *******************/
 .navbar .navbar-brand img{
     width: auto;
     height: 3rem;
@@ -51,9 +49,23 @@ body {
     color: var(--first-alpha-color);
 }
 
+.btn {
+    background-color: var(--second-color);
+    border: none;
+}
+
+.btn:hover {
+    background-color: var(--first-color
+    );
+}
+
+.visually-hidden {
+    background-color: aqua !important;
+}
+
+/* ****************** My Style *******************/
 .footer_navbar {
     list-style: none;
-    gap: 20px;
 }
 
 .bi {
@@ -63,6 +75,32 @@ body {
 
 .bi:hover {
     color: var(--bs-white);
+}
+
+.bg-gradient-blue-green {
+  background-color: rgba(83, 184, 152, 1);
+  background-image: linear-gradient(
+    135deg,
+    rgba(47, 145, 224, 0.91),
+    rgba(7, 31, 51, 0.97) 79%
+  );
+
+  background-image: linear-gradient(
+    131deg,
+    rgba(28, 118, 173, 0.92),
+    rgba(83, 184, 152, 1)
+  );
+}
+
+.gb-thir-color {
+    background-color: var(--third-color);
+}
+
+.single-page-content {
+    background-image: url(../img/site-singlepage.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: .3;
 }
 
 @media (min-width: 576px) {  }
